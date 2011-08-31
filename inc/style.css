@@ -1,0 +1,82 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body {
+  font-family: helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+a:link    {color:#f0612a;}
+a:visited {color:#f0612a;}
+a:hover   {color:#f0612a;}
+a:active  {color:#f0612a;}
+
+h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", 	Sans-Serif;
+	font-size: 14px;
+	color: #585656;
+	text-transform:uppercase;
+	margin-left: 190px;
+}
+
+#header{
+  position:relative;
+  margin-left:25px;
+  margin-bottom: -40px;
+}
+
+#status-table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	background: #fff;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 95%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#status-table th
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #f0612a;
+	padding: 10px 8px;
+	border-bottom: 2px solid #585656;
+}
+#status-table td
+{
+	border-bottom: 1px solid #b4b4b4;
+	color: #585656;
+	padding: 6px 8px;
+}
+#status-table tbody tr:hover td
+{
+	color: #f0612a;
+}
+
+
+
+#form {
+	position:relative;
+	margin-left:180px;
+	margin-top:50px;
+	padding:10px;
+	display:block;
+}
+form select {
+	font-size:150%;
+	font-size:20px;
+}
+
+#form #submit {
+	clear: both;
+	text-transform:uppercase;
+	font-size:18px;
+	color:#f0612a;
+	border:0;
+	background-color:#fff;
+	padding: 20px;
+}
